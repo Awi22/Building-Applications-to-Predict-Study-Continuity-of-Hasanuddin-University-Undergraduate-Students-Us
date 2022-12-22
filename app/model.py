@@ -70,7 +70,7 @@ predictions = loaded_model.predict_classes(X)
 
 # summarize the first 10 cases
 for i in range(10):
-	 print('%s => %d (expected %d)' % (X[i].tolist(), predictions[i], y[i]))
+	print('%s => %d (expected %d)' % (X[i].tolist(), predictions[i], y[i]))
 
 # Prediksi 1 data inputan
 tes = [[48, 4, 3]]
